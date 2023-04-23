@@ -1,0 +1,23 @@
+The data set includes 5000 observations with fourteen variables divided into four different measurement categories.
+The binary category has five variables, including the target variable personal loan, also securities account, CD account, 
+online banking and credit card. The interval category contains five variables: age, experience, income, CC avg and mortgage. 
+The ordinal category includes the variables family and education. The last category is nominal with ID and Zip code. 
+The variable ID does not add any interesting information e.g. individual association between a person (indicated by ID) and 
+loan does not provide any general conclusion for future potential loan customers. Therefore, it will be neglected in the examination.
+
+ID         Customer ID
+Age         Customer's age in completed years
+Experience     #years of professional experience
+Income             Annual income of the customer ($000)
+ZIPCode           Home Address ZIP code.
+Family           Family size of the customer
+CCAvg         Avg. spending on credit cards per month ($000)
+Education        Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional
+Mortgage        Value of house mortgage if any. ($000)
+Personal Loan     Did this customer accept the personal loan offered in the last campaign?
+Securities Account       Does the customer have a securities account with the bank?
+CD Account      Does the customer have a certificate of deposit (CD) account with the bank?
+Online          Does the customer use internet banking facilities?
+CreditCard     Does the customer use a credit card issued by UniversalBank?
+
+https://www.kaggle.com/code/farzadnekouei/imbalanced-personal-bank-loan-classification/input
